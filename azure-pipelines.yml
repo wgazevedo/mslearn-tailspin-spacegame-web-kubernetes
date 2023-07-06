@@ -75,7 +75,7 @@ stages:
                 connectionType: azureResourceManager
                 azureSubscriptionConnection: 'Conexão de Cluster do Kubernetes'
                 azureResourceGroup: 'tailspin-space-game-rg'
-                kubernetesCluster: 'tailspinspacegame-24591'
+                kubernetesCluster: 'tailspinspacegame-17698'
                 namespace: 'default'
                 manifests: |
                     $(Pipeline.Workspace)/manifests/deployment.yml
