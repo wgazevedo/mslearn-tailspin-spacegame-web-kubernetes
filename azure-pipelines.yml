@@ -73,7 +73,7 @@ stages:
             inputs:
                 action: deploy
                 connectionType: azureResourceManager
-                azureSubscriptionConnection: 'Kubernetes Cluster Connection'
+                azureSubscriptionConnection: 'Conexão de Cluster do Kubernetes'
                 azureResourceGroup: 'tailspin-space-game-rg'
                 kubernetesCluster: 'tailspinspacegame-24591'
                 namespace: 'default'
